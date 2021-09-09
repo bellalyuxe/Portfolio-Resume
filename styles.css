@@ -1,0 +1,185 @@
+/*font color*/
+h1 {
+    color:#6D2E46;
+    margin-top:20px;
+}
+h2 {
+    color:#A26769;
+}
+p {
+    color:#4e2133;
+}
+/*background color*/
+/*header {
+    background:#CEBEBE;
+}*/
+.footer {
+    color:#A26769;
+    position: fixed;
+    bottom:0;
+    left:0;
+    right:0;
+    text-align: center;
+}
+.experience {
+    background:#D5B9B2;
+}
+.education {
+    background:#b9958c;
+}
+/*link color*/
+a {
+    display: block;
+    color: #815163;
+    text-align: center;
+}
+a:hover {
+    color: #4e2133;
+    text-decoration: none;
+}
+/*font*/
+body {
+    font-family: 'Kaisei HarunoUmi', serif;
+}
+h1, h2 {
+    font-family: 'Abril Fatface', cursive;
+}
+h1 {
+    font-size: 50px;
+}
+h2 {
+    font-size: 30px;
+    margin-top: 0px;
+}
+/*center text*/
+h1, h2 {
+    text-align:center;
+}
+/*size of image*/
+.profile-image {
+    width: 250px;
+    height: 250px;
+    /*make the image a circle*/
+    border-radius: 50%;
+    /*center the image*/
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+/*set boarder for texts*/
+a, p {
+    padding-left: 40px;
+    padding-right: 40px;
+}
+ul {
+    padding-left: 80px;
+    padding-right: 80px;
+}
+h3 {
+    padding-left: 20px;
+    padding-right: 30px;
+}
+
+.content-wrap {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0px; /*get ride of the white spaces between backgrounds and increase the colored boarder*/
+    overflow: hidden;
+}
+
+/*pages*/
+.link {
+    float: right;
+    padding-top: 30px;
+    color:#A26769;
+}
+body{
+    background-image: url(background.JPG);
+    background-size:cover;
+}
+header {
+    clear:both; /*clear float*/
+}
+
+/*home*/
+.xinen {
+    margin-top: 10px;
+}
+
+/*about-me*/
+.profile {
+    max-width: 1000px;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 0px;
+}
+/*portfolio*/
+.photography{
+    width: 70%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.yearbook, .skeching, .drawing {
+    width: 30%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.self {
+    width: 30%;
+    display: inline-block;
+    margin-left: 190px;
+    margin-right: auto;
+}
+.ps {
+    width: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/*buttons on home page*/
+.button-me {
+    font-family: 'Kaisei HarunoUmi', serif;
+    font-size: 20px;
+    color:#D5B9B2;
+    width: 300px;
+    height: 450px;
+    background: url(IMG_3597.jpg);
+    background-size:cover;
+}
+.button-portfolio {
+    font-family: 'Kaisei HarunoUmi', serif;
+    font-size: 20px;
+    color:#D5B9B2;
+    width: 300px;
+    height: 450px;
+    background-image: url(IMG_3598.jpg);
+    background-size:cover;
+}
+.button-contact {
+    font-family: 'Kaisei HarunoUmi', serif;
+    font-size: 20px;
+    color:#D5B9B2;
+    width: 300px;
+    height: 450px;
+    background-image: url(IMG_3599.jpg);
+    background-size:cover;
+}
+.password {
+    text-align: center;
+}
+
+button {
+    float: left;
+    border: none;
+    border-radius: 15%;
+    margin-right: 85px;
+    margin-left: 85px;
+}
+button:hover {
+    color: #4e2133;
+
+}
